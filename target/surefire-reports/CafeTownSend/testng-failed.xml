@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CafeTownSend]">
+  <test name="CafeTests(failed)">
+    <parameter name="last Name" value="Gowda"/>
+    <parameter name="departing From" value="Sydney"/>
+    <parameter name="first Name" value="Shruthi"/>
+    <parameter name="arriving In" value="London"/>
+    <parameter name="credit card Num" value="123"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="testCafeTownSendloginPageLoading"/>
+          <include name="beforeClass"/>
+          <include name="nameBefore"/>
+          <include name="testLogin"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- CafeTests(failed) -->
+</suite> <!-- Failed suite [CafeTownSend] -->

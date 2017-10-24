@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 3.162 s <<< FAILURE! - in TestSuite
+testCafeTownSendloginPageLoading(tests.LoginTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.LoginTest.testCafeTownSendloginPageLoading(LoginTest.java:35)
+
+afterSuite(tests.LoginTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.NullPointerException
+

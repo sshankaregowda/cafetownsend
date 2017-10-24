@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.162" tests="3" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.0/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.0/libexec/conf"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.0/libexec"/>
+    <property name="surefire.test.class.path" value="/Users/rgowda/eclipse-workspace/CafeTownSend/target/test-classes:/Users/rgowda/eclipse-workspace/CafeTownSend/target/classes:/Users/rgowda/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/rgowda/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/rgowda/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-java/3.6.0/selenium-java-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.6.0/selenium-chrome-driver-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.6.0/selenium-edge-driver-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.6.0/selenium-firefox-driver-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.6.0/selenium-ie-driver-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.6.0/selenium-opera-driver-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.6.0/selenium-remote-driver-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.6.0/selenium-safari-driver-3.6.0.jar:/Users/rgowda/.m2/repository/org/seleniumhq/selenium/selenium-support/3.6.0/selenium-support-3.6.0.jar:/Users/rgowda/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/rgowda/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rgowda/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/rgowda/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rgowda/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/rgowda/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/rgowda/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/rgowda/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/rgowda/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/rgowda/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/rgowda/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/rgowda/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/rgowda/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/rgowda/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/rgowda/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/rgowda/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/rgowda/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rgowda"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/rgowda/eclipse-workspace/CafeTownSend"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="rgowda"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/rgowda/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/k4/x99vr8kd19dgvbn7_z2yv4tc0000gp/T/"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="/Users/rgowda/eclipse-workspace/CafeTownSend"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/rgowda/eclipse-workspace/CafeTownSend"/>
+    <property name="webdriver.gecko.driver" value="/Users/rgowda/eclipse-workspace/CafeTownSend//Resources//geckodriver//"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/rgowda/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.0/libexec/bin/m2.conf"/>
+    <property name="java.ext.dirs" value="/Users/rgowda/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.0/libexec/lib/jansi-native/osx64"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testCafeTownSendloginPageLoading" classname="tests.LoginTest" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at tests.LoginTest.testCafeTownSendloginPageLoading(LoginTest.java:35)
+</failure>
+    <system-out><![CDATA[0 [main] INFO Cafe.Base  - Loading the properties file,getting login and browser details
+3 [main] INFO Cafe.Base  - creating the driver object to drive the specified browser type
+610 [Forwarding newSession on session null to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+618 [Forwarding newSession on session null to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+619 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://localhost:35937][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+631 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 0][route: {}->http://localhost:35937][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+632 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://localhost:35937
+633 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to localhost/127.0.0.1:35937
+634 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 127.0.0.1:61259<->127.0.0.1:35937
+634 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 10800000
+634 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Executing request POST /session HTTP/1.1
+634 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+635 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+637 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 >> POST /session HTTP/1.1
+638 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+638 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 >> Content-Length: 659
+638 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 >> Host: localhost:35937
+638 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 >> Connection: Keep-Alive
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "Content-Length: 659[\r][\n]"
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "Host: localhost:35937[\r][\n]"
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+653 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "{[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    "acceptInsecureCerts": true,[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    "browserName": "firefox",[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    "moz:firefoxOptions": {[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      "args": [],[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      "prefs": {}[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    }[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "  },[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+654 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "  "capabilities": {[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      "acceptInsecureCerts": true,[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      "browserName": "firefox",[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      "moz:firefoxOptions": {[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "        "args": [],[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "        "prefs": {}[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      }[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    },[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    "alwaysMatch": {[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      "acceptInsecureCerts": true[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    },[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    "firstMatch": [[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      {[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "        "browserName": "firefox",[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "        "moz:firefoxOptions": {[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "          "args": [],[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "          "prefs": {}[\n]"
+655 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "        }[\n]"
+656 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "      }[\n]"
+656 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "    ][\n]"
+656 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "  }[\n]"
+656 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 >> "}"
+2874 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2874 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 << "Connection: close[\r][\n]"
+2874 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2874 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2874 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 << "Content-Length: 1104[\r][\n]"
+2874 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 << "Date: Tue, 24 Oct 2017 02:09:51 GMT[\r][\n]"
+2874 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+2875 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire  - http-outgoing-0 << "{"value":{"error":"unknown error","message":"Process unexpectedly closed with status: 0","stacktrace":"stack backtrace:\n   0:        0x106230a8e - backtrace::backtrace::trace::h69682bcb53decaf6\n   1:        0x106230acc - backtrace::capture::Backtrace::new::hdc9d731a957304a6\n   2:        0x106161434 - webdriver::error::WebDriverError::new::h930061353eac4c81\n   3:        0x106168dcc - geckodriver::marionette::MarionetteHandler::create_connection::hc09196342b760e35\n   4:        0x1061487d4 - _$LT$webdriver..server..Dispatcher$LT$T$C$$u20$U$GT$$GT$::run::hfda25a6dc0b512aa\n   5:        0x106120645 - std::sys_common::backtrace::__rust_begin_short_backtrace::h95009c1d3a320838\n   6:        0x10612811d - std::panicking::try::do_call::h8c5f07f1fc714fb2\n   7:        0x1062e19cc - __rust_maybe_catch_panic\n   8:        0x10613df55 - _$LT$F$u20$as$u20$alloc..boxed..FnBox$LT$A$GT$$GT$::call_box::h6a96e09ff4d37bff\n   9:        0x1062ddc3b - std::sys::imp::thread::Thread::new::thread_start::h823686b907c11c46\n  10:     0x7fffb7db593a - _pthread_body\n  11:     0x7fffb7db5886 - _pthread_start"}}"
+2876 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+2877 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 << Connection: close
+2877 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2877 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 << Cache-Control: no-cache
+2877 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 << Content-Length: 1104
+2877 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers  - http-outgoing-0 << Date: Tue, 24 Oct 2017 02:09:51 GMT
+2881 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: Close connection
+2881 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Connection discarded
+2882 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 0][route: {}->http://localhost:35937][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2918 [main] ERROR Cafe.Base  - Exception found: 
+org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'operationss-MBP', ip: 'fe80:0:0:0:1889:fc68:5f51:d8de%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:        0x106230a8e - backtrace::backtrace::trace::h69682bcb53decaf6
+   1:        0x106230acc - backtrace::capture::Backtrace::new::hdc9d731a957304a6
+   2:        0x106161434 - webdriver::error::WebDriverError::new::h930061353eac4c81
+   3:        0x106168dcc - geckodriver::marionette::MarionetteHandler::create_connection::hc09196342b760e35
+   4:        0x1061487d4 - _$LT$webdriver..server..Dispatcher$LT$T$C$$u20$U$GT$$GT$::run::hfda25a6dc0b512aa
+   5:        0x106120645 - std::sys_common::backtrace::__rust_begin_short_backtrace::h95009c1d3a320838
+   6:        0x10612811d - std::panicking::try::do_call::h8c5f07f1fc714fb2
+   7:        0x1062e19cc - __rust_maybe_catch_panic
+   8:        0x10613df55 - _$LT$F$u20$as$u20$alloc..boxed..FnBox$LT$A$GT$$GT$::call_box::h6a96e09ff4d37bff
+   9:        0x1062ddc3b - std::sys::imp::thread::Thread::new::thread_start::h823686b907c11c46
+  10:     0x7fffb7db593a - _pthread_body
+  11:     0x7fffb7db5886 - _pthread_start
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:140)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at Cafe.Base.getWebDriver(Base.java:97)
+	at Cafe.Base.beforeSuite(Base.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:206)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:160)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:83)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1107)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:954)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:832)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:154)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:146)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:309)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:194)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:107)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:993)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:345)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:191)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2928 [main] INFO Cafe.Base  - Launching the cafe town send URL
+2928 [main] ERROR Cafe.Base  - Exception found: 
+java.lang.NullPointerException
+	at Cafe.Base.beforeSuite(Base.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:206)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:160)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:83)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1107)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:954)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:832)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:154)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:146)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:309)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:194)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:107)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:993)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:345)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:191)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2940 [main] INFO tests.LoginTest  - Test name: testCafeTownSendloginPageLoading
+]]></system-out>
+    <system-err><![CDATA[1508810988598	geckodriver	INFO	geckodriver 0.19.0
+1508810988603	geckodriver	INFO	Listening on 127.0.0.1:35937
+1508810988974	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/k4/x99vr8kd19dgvbn7_z2yv4tc0000gp/T/rust_mozprofile.n2Gy8ZH0FkQo"
+1508810989729	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508810990099	Marionette	INFO	Enabled via --marionette
+2017-10-24 13:09:50.932 plugin-container[5022:1059909] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 13:09:50.933 plugin-container[5022:1059909] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+]]></system-err>
+  </testcase>
+  <testcase name="testLogin" classname="tests.LoginTest" time="0">
+    <skipped message="Method LoginTest.testLogin()[pri:0, instance:tests.LoginTest@15b82644] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="afterSuite" classname="tests.LoginTest" time="0.021">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+</testsuite>
